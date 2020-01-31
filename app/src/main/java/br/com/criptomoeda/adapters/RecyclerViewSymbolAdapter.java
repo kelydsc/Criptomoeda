@@ -8,6 +8,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import java.util.List;
+
 import br.com.criptomoeda.R;
 import br.com.criptomoeda.interfaces.RecyclerViewSymbolClickListener;
 import br.com.criptomoeda.model.symbol.Symbol;
@@ -52,8 +54,7 @@ public class RecyclerViewSymbolAdapter extends RecyclerView.Adapter<RecyclerView
 
     @Override
     public int getItemCount() {
-        //return symbolList;
-
+       //return symbolList;
         //return symbolList.getSymbol().size();
         return 0;
     }

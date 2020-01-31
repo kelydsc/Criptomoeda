@@ -18,11 +18,13 @@
             android:orientation="horizontal"
             android:padding="16dp">
 
+            <!--
             <ImageView
-                android:id="@+id/imageViewRecyclerviewTickers"
+                android:id="@+id/imageViewRecyclerviewTicker"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@mipmap/ic_launcher" />
+                -->
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -30,21 +32,24 @@
                 android:layout_marginLeft="16dp"
                 android:orientation="vertical">
 
+
                 <TextView
-                    android:id="@+id/textViewRecyclerviewTickersSymbols"
+                    android:id="@+id/textViewRecyclerviewSymbols"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Symbol"
                     android:textAppearance="@android:style/TextAppearance.Holo.Medium" />
 
+
+                <!--
                 <TextView
-                    android:id="@+id/textViewRecyclerviewTickersLastPrice"
+                    android:id="@+id/textViewRecyclerviewTickerLastPrice"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
                     android:text="Price"
                     android:textAppearance="@android:style/TextAppearance.Holo.Small" />
-
+                -->
             </LinearLayout>
 
         </LinearLayout>

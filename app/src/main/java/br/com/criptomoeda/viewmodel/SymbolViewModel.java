@@ -7,8 +7,6 @@ import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 
-import java.util.List;
-
 import br.com.criptomoeda.model.symbol.Symbol;
 import br.com.criptomoeda.repository.SymbolRepository;
 import io.reactivex.android.schedulers.AndroidSchedulers;
@@ -18,6 +16,7 @@ import io.reactivex.schedulers.Schedulers;
 import static br.com.criptomoeda.util.Util.isNetworkConnected;
 
 public class SymbolViewModel extends AndroidViewModel {
+
     private MutableLiveData<Symbol> symbolLiveData = new MutableLiveData<>();
     private MutableLiveData<Throwable> errorLiveData = new MutableLiveData<>();
     private MutableLiveData<Boolean> loadingLiveData = new MutableLiveData<>();

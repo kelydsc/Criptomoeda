@@ -3,10 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.criptomoeda.TickersActivity">
+    tools:context=".view.criptomoeda.TickerActivity">
 
     <ProgressBar
-        android:id="@+id/progressBarBuscaTickers"
+        android:id="@+id/progressBarBuscaTicker"
         style="?android:attr/progressBarStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -16,9 +16,9 @@
         android:visibility="gone" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerviewTickers"
+        android:id="@+id/recyclerviewTicker"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:listitem="@layout/recyclerview_tickers_item"></androidx.recyclerview.widget.RecyclerView>
+        tools:listitem="@layout/recyclerview_ticker_item"></androidx.recyclerview.widget.RecyclerView>
 
 </LinearLayout>

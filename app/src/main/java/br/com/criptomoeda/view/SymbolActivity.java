@@ -67,7 +67,7 @@ public class SymbolActivity extends AppCompatActivity implements RecyclerViewSym
                 //Retorna os dados do Symbol gravados na Api
                 symbolList = symbolListLocal;
 
-                adapter.updateSymbol(symbolList);
+                adapter.updateSymbol(symbolListLocal);
             }
         });
 
