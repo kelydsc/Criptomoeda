@@ -20,7 +20,5 @@ public class Symbol {
     public void setSymbol(List<String> symbol) {
         this.symbol = symbol;
     }
-
-
 }
 
