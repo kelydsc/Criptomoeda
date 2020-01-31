@@ -11,9 +11,9 @@ import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-public class ApiService {
+public class ApiServiceSymbol {
 
-    public static final String URL_BASE = "https://api.bitfinex.com/v1/pubticker/";
+    public static final String URL_BASE = "https://api.bitfinex.com/v1/";
 
     private static Retrofit retrofit;
 
